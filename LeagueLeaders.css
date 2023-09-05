@@ -1,0 +1,127 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: black;;
+    animation: back-ani 12s linear infinite;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    color: black;;
+    animation: blue-ani 12s linear infinite;
+}
+
+h3{
+    font-size: 50px;
+    text-align: center;
+    color: black;;
+    animation: back-ani 12s linear infinite;
+}
+
+h4{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    animation: blue-ani 12s linear infinite;
+}
+
+h5{
+  font-size: 50px;
+  text-align: center;
+  color: black;
+  animation: back-ani 12s linear infinite;
+}
+
+nav ul {
+    margin: 5;
+    padding: 0;
+    list-style: none;
+    
+  }
+  
+  nav a {
+    display: block;
+    padding: 20px;
+    margin: 10px;
+    background-color: grey;
+    width: 50px;
+    color: blue;
+    transition: background-color 1.0s, width 2.0s, color 2.0s;
+  }
+
+  nav a:hover {
+    background-color: burlywood;
+    width: 300px;
+    color: black;
+  }    
+
+
+  #Week1div {
+    color: black;
+    font-size: 60px;
+    width: 2000Spx;
+    height: 100px;
+    background-color:aqua;
+    animation: back-ani 20s linear infinite;
+    text-align: center;
+  }
+
+  @keyframes back-ani {
+    0%   {background-color:lightblue;}
+    50%  {background-color:greenyellow;}
+    100% {background-color:lightblue;}
+  }
+
+  @keyframes blue-ani {
+    0%   {background-color:aquamarine;}
+    50%  {background-color:lightgreen;}
+    100% {background-color: orange;}
+  }
+  
+.travis-container
+{
+  width: 200px; 
+  height: 200px;
+  position: relative; 
+}
+
+.travis-container img
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s ease; 
+}
+
+.travis-container:hover img {
+  transform: rotate(360deg); 
+}
+
+  
+ 
+ul.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.nav-list li {
+    display: inline;
+    margin-right: 10px;
+}
+
+ul.nav-list li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+ul.nav-list li a:hover {
+    color:#333 
+}
+  
+  
+  
+  
+  
+ 
