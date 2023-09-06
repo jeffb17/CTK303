@@ -97,7 +97,43 @@ nav ul {
   transform: rotate(360deg); 
 }
 
-  
+.spencer-container
+{
+  width: 200px; 
+  height: 200px;
+  position: relative; 
+}
+
+.spencer-container img
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s ease; 
+}
+
+.spencer-container:hover img {
+  transform: rotate(360deg); 
+}
+
+.caleb-container
+{
+  width: 200px; 
+  height: 200px;
+  position: relative; 
+}
+
+.caleb-container img
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s ease; 
+}
+
+.caleb-container:hover img {
+  transform: rotate(360deg); 
+}
  
 ul.nav-list {
   list-style: none;
