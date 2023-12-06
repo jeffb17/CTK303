@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="final.css">
+    <title>QB1</title>
+    
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Bloodline Business</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="final.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="abpage.html">AB</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="QB1page.html">QB1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">JB</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        #video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            animation: moveBackground 30s linear infinite;
+        }
+
+        @keyframes moveBackground {
+            0% {
+                transform: scale(1.2);
+            }
+            50% {
+                transform: scale(1);
+            }
+            100% {
+                transform: scale(1.2);
+            }
+        }
+
+        /*  styling */
+        #content {
+            position: relative;
+            z-index: 1;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Video Background -->
+    <video id="video-background" autoplay loop muted>
+        <source src="QB1TD.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Content -->
+    <div id="content">
+        <h1>QB1 Highlights</h1>
+        <p>
+            MISSED 75% Of Season
+            20/38 Passing 525 Yards 5 Tds
+             25 Rushes 240 Yards 6Tds
+        </p>
+    </div>
+
+ <!-- Clickable Images -->
+ <div class="image-container">
+    <a href="QB1TD.mp4"><img src="IMG_2902-_1_.jpeg" alt="Image 2"></a>
+    <a href="QB1TD.mp4"><img src="IMG_4044.jpeg" alt="Image 2"></a>
+    <a href="https://instagram.com/shamonsocool?igshid=MzMyNGUyNmU2YQ=="><img src="Instagram_icon.jpeg" alt="Image 1"></a>
+    <a href="https://www.tiktok.com/@1witdashifts.mon?_t=8hxq7JQW5wA&_r=1"><img src="Logo-Tiktok.jpeg" alt="Image 2"></a>
+
+     <!-- Link to Bootstrap JS (popper.js and Bootstrap JS) -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
